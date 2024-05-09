@@ -97,7 +97,7 @@ span {
 .home-content h1 {
   font-size: 5.6rem;
   font-weight: 700;
-  line-height: 1.3;  /*Altura entre lineas*/
+  line-height: 1.3; /*Altura entre lineas*/
 }
 
 .home-content p {
@@ -133,16 +133,16 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
   color: var(--second-bg-color);
-  letter-spacing: .1rem; /* Espacio entre elementos es decir entre letras o carates */
+  letter-spacing: 0.1rem; /* Espacio entre elementos es decir entre letras o carates */
   font-weight: 600;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .btn:hover {
   box-shadow: none;
 }
 
-.about{
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,6 +150,25 @@ span {
   background: var(--second-bg-color);
 }
 
-.about-img img{
+.about-img img {
   width: 35vw;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.about-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.about-content h3{
+  font-size: 2.6rem;
+}
+
+.about-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
 }
